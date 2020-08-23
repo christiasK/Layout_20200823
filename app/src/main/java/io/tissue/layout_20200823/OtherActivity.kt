@@ -1,8 +1,7 @@
 package io.tissue.layout_20200823
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_other.*
 
 class OtherActivity : AppCompatActivity() {
@@ -11,8 +10,7 @@ class OtherActivity : AppCompatActivity() {
         setContentView(R.layout.activity_other)
 
         returnMainActivity.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            finish()
         }
     }
 }

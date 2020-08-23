@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
 		moveToOtherActivity.setOnClickListener {
 			val intent = Intent(this, OtherActivity::class.java)
+
 			startActivity(intent)
 		}
 
