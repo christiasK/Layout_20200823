@@ -5,6 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".OtherActivity">
+    android:gravity="center"
+    tools:context=".OtherActivity"
+    android:background="#666666">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other Activity입니다."
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:id="@+id/returnMainActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"/>
 
 </LinearLayout>
