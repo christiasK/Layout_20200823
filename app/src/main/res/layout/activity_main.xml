@@ -29,8 +29,44 @@
         <TextView
             android:id="@+id/nickname"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-
+            android:layout_height="wrap_content" />
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/cellPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="상대방 연락처 입력"/>
+
+    <Button
+        android:id="@+id/dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화걸기(DIAL)"/>
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화걸기(CALL)"/>
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문자 보내기(SMS)"/>
+
+    <Button
+        android:id="@+id/internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="네이버로 이동"/>
+
+    <Button
+        android:id="@+id/playstore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="플레이스토어 이동"/>
+
 </LinearLayout>
