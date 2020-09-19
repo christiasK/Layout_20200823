@@ -14,4 +14,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="다른 화면으로 이동" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/changeNickNameBtn"
+            android:text="닉네임 변경"/>
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
 </LinearLayout>
